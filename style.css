@@ -1,0 +1,94 @@
+* {
+  padding-left: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+
+/* HEADER */
+li {
+  font-size: 2rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+nav {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 2rem;
+  margin: auto;
+}
+.main-header {
+  /*background-color: mediumseagreen;*/
+  color: white;
+}
+nav ul {
+  display: flex;
+  flex: 2 2 1%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+#logo {
+  flex: 2 1 40rem;
+}
+
+/* HERO */
+.hero {
+  /*min-height: 90%;*/
+
+  /*background: url('/images/tt.jpg');*/
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 10%;
+  padding-left: 2%;
+}
+body {
+  background-image: url("/images/healthy.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  font-family: "Pattaya", sans-serif;
+}
+#sous-titre {
+  margin-left: 15%;
+}
+#gd-titre {
+  margin-left: 5%;
+}
+#contact {
+  margin-left: 25%;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Pattaya', sans-serif;
+  cursor: pointer;
+}
